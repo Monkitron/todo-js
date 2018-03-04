@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo JavaScript</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+    <script src="https://use.fontawesome.com/67b80e2b65.js"></script>  
+</head>
+<body>
+    <div class="container"> 
+        <header>
+            <h1>PINKY TODO</h1>
+            <h2>Get the shit done!</h2>
+        </header>
+        <main>
+        
+            <h3>What do you want to do?</h3>
+            <input id="input" type="text" autocomplete="off" placeholder="Ex. Make lemonade of life">
+            <input type="button" value="Add" id="add_button"/>
+
+            <h3>Let's get going!</h3>
+            <ul id="incomplete_todos"></ul>
+            <div class="clear"></div>
+            <button id="delete_all">CLEAR ALL - NO TODOS TODAY!</button>
+
+            <h3>Look at them Completed todos!</h3>
+            <ul id="completed_todos"></ul>    
+             
+        </main>
+    </div>    
+    <footer>        
+        <a href="https://github.com/monkitron">
+        <i class="fa fa-github" aria-hidden="true"></i> MONKITRON</a>
+        <script src="main.js"></script>
+    </footer>
+</body>
+</html>
+
+
+
